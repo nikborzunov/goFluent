@@ -1,0 +1,88 @@
+.sliderContainer {
+  margin: 2rem auto;
+  background: #f4f7fa;
+  padding: 2rem;
+  padding-bottom: 5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+  width: 95%;
+  max-width: 100%;
+  min-height: 15.625rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.625rem;
+}
+
+.subTitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.25rem;
+}
+
+.viewAllAssignments {
+  display: block;
+  margin-top: 0.9375rem;
+  text-align: right;
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.customDotsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 1440px) {
+  .sliderContainer {
+    max-width: 87.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sliderContainer {
+    max-width: 75rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sliderContainer {
+    min-height: 18.75rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sliderContainer {
+    min-height: 15.625rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sliderContainer {
+    padding: 0.9375rem;
+    min-height: 13.75rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .subTitle {
+    font-size: 0.875rem;
+  }
+
+  .viewAllAssignments {
+    font-size: 0.875rem;
+  }
+}
